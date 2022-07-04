@@ -13,6 +13,8 @@ PORT = args.port
 MAX = 1024
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+print('Timeout value is 20 seconds.')
+sock.settimeout(20)
 sock.bind((HOST,PORT))
 print(f'{HOST} listening on {PORT} :')
 sock.listen()
