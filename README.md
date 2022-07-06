@@ -22,5 +22,6 @@
 # 
 # 4.
 # Yes - when testing this, we found out that sockets do not really work over two different networks due to port forwarding.
-# 
-# In addition to this, the slice() function is also interesting. 
+# When on a work laptop and having the server run on an iLab machine, the client received an error stating that
+# the server actively refused connection - could possibly be a firewall thing.
+# In addition to this, learning about the slice() function is also interesting. 
